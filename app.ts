@@ -1,10 +1,13 @@
-function add(n1, n2) {
+function add(n1: number, n2: number) {
   return n1 + n2;
 }
 
-const number1 = 5;
-const number2 = 10;
+function printResult(num: number): void {
+  console.log("Result: " + num);
+}
 
-const result = add(number1, number2);
+// let combineValues :;
 
-console.log(result);
+// console.log(combineValues(20, 10));
+
+printResult(add(20, 40));
